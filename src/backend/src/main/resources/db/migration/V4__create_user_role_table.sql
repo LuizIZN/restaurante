@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Users_Role (
+    user_id UUID NOT NULL,
+    role_id INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, role_id),
+    FOREIGN KEY (user_id) REFERENCES Users(id) ON DELETE CASCADE,
+    FOREIGN KEY (role_id) REFERENCES Role(id) ON DELETE CASCADE
+);
