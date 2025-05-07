@@ -4,10 +4,11 @@ Este repositório define a **estrutura base** para todos os projetos da Softeam.
 
 ## 📦 Estrutura
 
-- `src/` – Código-fonte principal da aplicação
-- `tests/` – Testes automatizados
-- `docs/` – Documentação técnica e diagramas
-- `README.md` – Documentação de cada diretório explicando seu propósito
+- **Frontend**: Localizado em `src/frontend`, desenvolvido com Next.js.
+- **Backend**: Localizado em `src/backend`, desenvolvido com Spring Boot.
+- **Tests**: Localizado em `src/test`, contém os testes automatizados.
+- **Docs**: Localizado em `docs`, contém a documentação técnica e diagramas.
+
 
 ## 🧭 Propósito
 
@@ -20,7 +21,5 @@ Todos os novos projetos da Softeam devem partir deste template.
 1. Clone este repositório
 2. Renomeie o projeto conforme necessário
 3. Atualize os `README.md` com informações específicas do projeto
-
----
 
 Mantenha a estrutura clara, modular e documentada. Isso é o que garante a qualidade dos nossos projetos!
